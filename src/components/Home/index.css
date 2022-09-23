@@ -1,0 +1,54 @@
+.room {
+    height: 100%;
+    margin: 0px;
+
+}
+
+.Lit {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+.Dark {
+    background-color: #000000;
+    transition: 0.5s;
+    color: white;
+}
+
+.Dark .post {
+    background-color: #252728;
+    color: white;
+    /* box-shadow: 0px 0px 30px 5px  rgb(255, 255, 255); */
+    transition: 0.5s;
+}
+
+.Lit .post {
+    box-shadow: 0px 0px 20px black;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    color: var(--main-color);
+    background-color: var(--bgcolor);
+    border: none;
+    font-size: 30px;
+    margin-left: 10px;
+    position: relative;
+    top: 6px;
+}
+
+.screen {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.apiContainer {
+    display: flex;
+    justify-content: center;
+}
